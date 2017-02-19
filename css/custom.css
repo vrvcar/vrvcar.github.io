@@ -6,6 +6,12 @@
 
 /* your styles go here */
 
+/*#ip {
+  position: absolute;
+  right: 41%;
+  top: 20%;
+}*/
+
 #bg {
     display: table;
     position: relative;
