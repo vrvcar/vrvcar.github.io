@@ -1,0 +1,82 @@
+/**
+* @Date:   2017-02-19 02:25:27
+* @Last modified time: 2017-02-19 08:13:05
+*/
+
+
+/* your styles go here */
+
+#bg {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/landscape.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*#bg img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto\9; /* ie8
+}*/
+
+#bg a {
+    position: absolute;
+    right: 40%;
+    top: 40%;
+}
+
+.btn-ghost {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost:active,
+.btn-ghost.active,
+.open .dropdown-toggle.btn-ghost {
+  color: #2b90d9;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #1e6fa9;
+}
+.btn-ghost:active,
+.btn-ghost.active,
+.open .dropdown-toggle.btn-ghost {
+  background-image: none;
+}
+.btn-ghost.disabled,
+.btn-ghost[disabled],
+fieldset[disabled] .btn-ghost,
+.btn-ghost.disabled:hover,
+.btn-ghost[disabled]:hover,
+fieldset[disabled] .btn-ghost:hover,
+.btn-ghost.disabled:focus,
+.btn-ghost[disabled]:focus,
+fieldset[disabled] .btn-ghost:focus,
+.btn-ghost.disabled:active,
+.btn-ghost[disabled]:active,
+fieldset[disabled] .btn-ghost:active,
+.btn-ghost.disabled.active,
+.btn-ghost[disabled].active,
+fieldset[disabled] .btn-ghost.active {
+  background-color: transparent;
+  border-color: #2b90d9;
+}
+.btn-ghost .badge {
+  color: transparent;
+  background-color: #2b90d9;
+}
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost:active,
+.btn-ghost.active,
+.open .dropdown-toggle.btn-ghost {
+  color: #fff;
+  background-color: #2b90d9;
+  border-color: #2b90d9;
+}
