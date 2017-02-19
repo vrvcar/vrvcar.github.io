@@ -1,3 +1,9 @@
+/**
+* @Date:   2017-02-19 02:25:28
+* @Last modified time: 2017-02-19 08:30:40
+*/
+
+
 $(function () {
 
     lightbox();

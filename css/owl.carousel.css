@@ -1,4 +1,10 @@
-/* 
+/**
+* @Date:   2017-02-19 02:25:27
+* @Last modified time: 2017-02-19 08:30:29
+*/
+
+
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.2
  */
@@ -36,7 +42,7 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 }
@@ -54,7 +60,7 @@
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -68,4 +74,3 @@
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
-
